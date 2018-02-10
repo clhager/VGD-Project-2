@@ -9,6 +9,7 @@ public class BombermanMovement : MonoBehaviour {
 	public string right = "d";
 	public string up  = "w";
 	public string left    = "a";
+	public string setBomb = "e";
 	public float speed = 2f;
 
 	Animator animator;
@@ -57,6 +58,10 @@ public class BombermanMovement : MonoBehaviour {
 			if (facing == -1) {
 				facing = 3;
 			}
+		}
+
+		if (Input.GetKeyDown (setBomb)) {
+			animator.SetTrigger ("SetBomb");
 		}
 
 		if (facing != -1) {
