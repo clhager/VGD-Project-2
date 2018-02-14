@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BombermanMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/BombermanMovement.cs" Line="66" Column="73" />
+      <File FileName="Assets/Scripts/BombermanMovement.cs" Line="65" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

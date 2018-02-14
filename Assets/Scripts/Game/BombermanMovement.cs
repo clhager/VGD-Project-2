@@ -15,8 +15,6 @@ public class BombermanMovement : MonoBehaviour {
 	Animator animator;
 	private Rigidbody2D rb;
 
-	private int direction = 0;
-
 
 	void Awake () {
 		animator = GetComponent<Animator> ();
