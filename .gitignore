@@ -1,0 +1,12 @@
+*.meta
+*.asset
+*.log
+*.db
+*.bin
+*.info
+*.backup
+*.json
+*.txt
+*.DS_store
+/Library/*
+/Temp/*
