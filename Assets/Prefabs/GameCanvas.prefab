@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 223435010271814414}
   - component: {fileID: 114822713303171086}
   - component: {fileID: 114723861726479164}
-  - component: {fileID: 114051077048661432}
+  - component: {fileID: 114361067226138446}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -200,7 +200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1879341737718808
 GameObject:
   m_ObjectHideFlags: 1
@@ -251,20 +251,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114051077048661432
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1689625813758630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00c0e367988758a4fb6cd837afa83e6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: StartMenu
-  pauseMenuUI: {fileID: 1864959405713622}
-  levelLoader: {fileID: 0}
 --- !u!114 &114103897264992712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -459,6 +445,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114361067226138446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689625813758630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f5f47003ad14f1890a6d4702a2d3fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: StartMenu
+  pauseMenuUI: {fileID: 1864959405713622}
+  levelLoader: {fileID: 0}
 --- !u!114 &114372120114771062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -814,7 +814,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114051077048661432}
+      - m_Target: {fileID: 114361067226138446}
         m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114051077048661432}
+      - m_Target: {fileID: 114361067226138446}
         m_MethodName: LoadMenu
         m_Mode: 5
         m_Arguments:
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114051077048661432}
+      - m_Target: {fileID: 114361067226138446}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:

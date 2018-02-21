@@ -2126,10 +2126,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1430823840386440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1215c8cb78c57a24cb625392ca6ea236, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ddc11701b43e4c0bb871b0ebff46bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: b6763f7457c98684fa8d091bcce6d941, type: 2}
+  audioMixer: {fileID: 24100000, guid: ca78db4f480278940a09fd6a206ac2c2, type: 2}
   resolutionDropdown: {fileID: 114535987399858518}
 --- !u!114 &114394482494229244
 MonoBehaviour:
@@ -2341,7 +2341,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c8e4aa814d32e294aa2047c4db4c8706, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ad79c55c5f934c718414b4c9b45d655, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2497,12 +2497,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1536210122815422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688a5c7e3a8e5e147b7f311acb02d653, type: 3}
+  m_Script: {fileID: 11500000, guid: 0caa68368b3f34283ae76df2aac60da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 1683147872436270}
-  slider: {fileID: 114678278997195150}
-  loadingBarProgressText: {fileID: 114304124348404674}
+  levelLoader: {fileID: 0}
 --- !u!114 &114506434885041434
 MonoBehaviour:
   m_ObjectHideFlags: 1

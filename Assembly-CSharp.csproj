@@ -51,9 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Game\BombermanMovement.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Bomb.cs" />
+     <Compile Include="Assets\Scripts\Game\Bomberman.cs" />
+     <Compile Include="Assets\Scripts\Game\BombScript.cs" />
+     <Compile Include="Assets\Scripts\Game\BrickSpawner.cs" />
+     <Compile Include="Assets\Scripts\Game\Explosion.cs" />
      <Compile Include="Assets\Scripts\Game\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\StartMenu\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\StartMenu\MainMenu.cs" />
      <Compile Include="Assets\Scripts\StartMenu\OptionsMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -172,6 +177,12 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+ <HintPath>/Users/clhager/Desktop/VGD/VGD Project 2/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+ <HintPath>/Users/clhager/Desktop/VGD/VGD Project 2/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/clhager/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -192,12 +203,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/clhager/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
- <HintPath>/Users/clhager/Desktop/VGD/VGD Project 2/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
- <HintPath>/Users/clhager/Desktop/VGD/VGD Project 2/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
